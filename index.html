@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="background"></div>
+    <div class="menu">
+      <nav>
+        <span class="material-symbols-outlined">
+          pets
+          </span>
+          <a style="animation-delay: 0.2s" href="我.jpg" target="z1"><span class="material-icons-outlined">
+          我的照片
+        <a style="animation-delay: 0.3s" href="https://h5p.org/h5p/embed/707" target="z1">記憶</a>
+        <a style="animation-delay: 0.4s" href="https://h5p.org/h5p/embed/231678" target="z1">配對</a>
+        <a style="animation-delay: 0.4s" href="https://h5p.org/h5p/embed/34141" target="z1">問答</a>
+        <a style="animation-delay: 0.5s" href="https://alpacachi0516.github.io/last/" target="z1">關於我</a>
+      </nav>
+      <div class="container">
+        <div class="cloud front">
+          <span class="left-front"></span>
+          <span class="right-front"></span>
+        </div>
+        <span class="sun sunshine"></span>
+        <span class="sun"></span>
+        <div class="cloud back">
+          <span class="left-back"></span>
+          <span class="right-back"></span>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <iframe name="z1" width="100%" height="100%" frameBorder="0"></iframe>
+      </div>
+    <script type="text/javascript">
+      const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+  </body>
+</html>
